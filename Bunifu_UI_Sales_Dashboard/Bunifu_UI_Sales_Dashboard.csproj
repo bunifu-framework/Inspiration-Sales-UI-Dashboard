@@ -33,11 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BunifuDataViz 1.0.1">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Bunifu Technologies\Bunifu DataViz Manager\bin\updates\Bunifu DataViz\BunifuDataViz 1.0.1.dll</HintPath>
+    <Reference Include="Bunifu.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu_UI_v1.5.4">
-      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.5.4.dll</HintPath>
+    <Reference Include="BunifuDataViz">
+      <HintPath>..\..\..\..\CSharp\Deploy\1.8.0.0\Advanced\BunifuDataViz.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\CSharp\Deploy\1.8.0.0\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />

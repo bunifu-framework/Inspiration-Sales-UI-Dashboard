@@ -29,8 +29,8 @@ namespace Bunifu_UI_Sales_Dashboard
         public void plotdata()
         {
             //creat a canvas and datapoints for the bunifu line
-            var canvas = new Bunifu.DataViz.Canvas();
-            var datapoints = new Bunifu.DataViz.DataPoint(Bunifu.DataViz.BunifuDataViz._type.Bunifu_line);
+            var canvas = new Bunifu.DataViz.WinForms.Canvas();
+            var datapoints = new Bunifu.DataViz.WinForms.DataPoint(Bunifu.DataViz.WinForms.BunifuDataViz._type.Bunifu_line);
 
             datapoints.addLabely("Jan", "2");
             datapoints.addLabely("Feb", "3");
@@ -45,7 +45,7 @@ namespace Bunifu_UI_Sales_Dashboard
             datapoints.addLabely("Nov", "5");
             datapoints.addLabely("Dec", "4");
             //second chart points
-            var datapoints2 = new Bunifu.DataViz.DataPoint(Bunifu.DataViz.BunifuDataViz._type.Bunifu_line);
+            var datapoints2 = new Bunifu.DataViz.WinForms.DataPoint(Bunifu.DataViz.WinForms.BunifuDataViz._type.Bunifu_line);
 
             datapoints2.addLabely("Jan", "12");
             datapoints2.addLabely("Feb", "10");
